@@ -92,7 +92,7 @@ params:
 
     socialIcons:
         - name: telegram
-          url: "https:t.me/theinhumaneme"
+          url: "https://t.me/theinhumaneme"
         - name: github
           url: "https://github.com/theinhumaneme"
         - name: instagram
