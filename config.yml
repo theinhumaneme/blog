@@ -136,6 +136,7 @@ params:
     
     assets:
         disableHLJS: false
+        disableFingerprinting: true
     #     favicon: "<link / abs url>"
     #     favicon16x16: "<link / abs url>"
     #     favicon32x32: "<link / abs url>"
