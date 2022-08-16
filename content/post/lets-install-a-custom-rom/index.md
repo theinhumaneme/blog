@@ -1,10 +1,10 @@
 +++
-categories = ["Android", "Linux", "open-source"]
+categories = ["android", "linux", "open-source"]
 date = 2022-02-27T16:56:58Z
 description = ""
 draft = false
 slug = "lets-install-a-custom-rom"
-tags = ["Android", "Linux", "open-source"]
+tags = ["android", "linux", "open-source"]
 title = "Let's Install a Custom ROM"
 [cover]
     image = "images/adrien-K12SrkaZuCg-unsplash.jpg"

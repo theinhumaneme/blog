@@ -1,10 +1,10 @@
 +++
-categories = ["Android", "open-source", "Linux"]
+categories = ["android", "open-source", "linux"]
 date = 2022-01-20T13:56:14Z
 description = ""
 draft = false
 slug = "aosp-and-custom-roms"
-tags = ["Android", "open-source", "Linux"]
+tags = ["android", "open-source", "linux"]
 title = "AOSP and Custom ROMs"
 [cover]
     image = "images/mika-baumeister-C4wFBBXRyyE-unsplash.jpg"

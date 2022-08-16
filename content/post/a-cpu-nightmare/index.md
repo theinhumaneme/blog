@@ -1,10 +1,10 @@
 +++
-categories = ["Dreams", "AMD", "Ryzen"]
+categories = ["dreams", "AMD", "AMD-ryzen"]
 date = 2022-03-01T07:49:00Z
 description = ""
 draft = false
 slug = "a-cpu-nightmare"
-tags = ["Dreams", "AMD", "Ryzen"]
+tags = ["dreams", "AMD", "AMD-ryzen"]
 title = "A CPU Nightmare"
 [cover]
     image = "images/olivier-collet-JMwCe3w7qKk-unsplash.jpg"

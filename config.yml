@@ -52,10 +52,10 @@ taxonomies:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Personal Blog of Kalyan Mudumby, I generally share my ideas and thoughts, occasionally some tutorial and installation guides of somethings interest me."
+    description: "Personal Blog of Kalyan Mudumby, I generally share my ideas and thoughts, occasionally some tutorial and installation guides of somethings interest me. AKA theinhumaneme"
     author: Kalyan Mudumby
     # author: ["Me", "You"] # multiple authors
-    defaultTheme: hugo-PaperMod
+    defaultTheme: PaperMod
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
@@ -87,8 +87,8 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "Kalyan's Blog"
-        Content: "Personal Blog of Kalyan Mudumby, I generally share my ideas and thoughts, occasionally some tutorial and installation guides of somethings interest me."
+        Title: "Kalyan Mudumby"
+        Content: "I generally share my ideas and thoughts, occasionally some tutorial and installation guides of software and technologies that interest me. AKA theinhumaneme"
 
     socialIcons:
         - name: telegram

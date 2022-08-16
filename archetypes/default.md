@@ -1,7 +1,7 @@
 ---
 title: "Let's Install an AdBlocker with PiHole"
 date: {{ .Date }}
-tags: ["Linux", "Cloud", "open-source", "Raspberry Pi"]
+tags: ["linux", "cloud", "open-source", "raspberry-pi"]
 slug: ""
 description: ""
 summary: ""

@@ -1,11 +1,11 @@
 +++
-categories = ["Linux", "Cloud", "open-source", "Raspberry Pi"]
+categories = ["linux", "cloud", "open-source", "raspberry-pi"]
 date = 2022-03-31T15:59:32Z
 description = ""
 draft = false
 slug = "lets-install-pihole"
 summary = "Let's install an AdBlocker with PiHole -  a DNS level AdBlocker. A safer and better home network for our family and friends"
-tags = ["Linux", "Cloud", "open-source", "Raspberry Pi"]
+tags = ["linux", "cloud", "open-source", "raspberry-pi"]
 title = "Let's Install an AdBlocker with PiHole"
 [cover]
     image = "images/Pi-hole.jpg"

@@ -1,11 +1,11 @@
 +++
-categories = ["Telegram", "telegram-bot", "Python"]
+categories = ["telegram", "telegram-bot", "python"]
 date = 2021-10-13T13:21:00Z
 description = ""
 draft = false
 title = "Bots! What are they? Let's make a Telegram Bot [Part -1]"
 slug = "bots-what-are-they-lets-make-a-telegram-bot-part-1"
-tags = ["Telegram", "telegram-bot", "Python"]
+tags = ["telegram", "telegram-bot", "python"]
 series = ["telegram-bot"]
 [cover]
     image = "images/telegram-bot-2.png"

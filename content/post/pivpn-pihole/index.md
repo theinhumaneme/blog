@@ -1,11 +1,11 @@
 +++
-categories = ["Linux", "open-source", "Cloud", "Raspberry Pi"]
+categories = ["linux", "open-source", "cloud", "raspberry-pi"]
 date = 2022-04-02T04:18:09Z
 description = ""
 draft = false
 slug = "pivpn-pihole"
 summary = "Let's set up a secure VPN with PiVPN to connect to home/office network block advertisements and trackers, a safer internet connection for ourselves from anyplace outside our home"
-tags = ["Linux", "open-source", "Cloud", "Raspberry Pi"]
+tags = ["linux", "open-source", "cloud", "raspberry-pi"]
 title = "Let's install a VPN with PiVPN"
 [cover]
     image = "images/PiGuard.jpg"

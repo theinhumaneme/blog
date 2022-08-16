@@ -1,11 +1,11 @@
 +++
-categories = ["Python", "Telegram", "telegram-bot"]
+categories = ["python", "telegram", "telegram-bot"]
 date = 2022-06-14T09:48:38Z
 description = ""
 draft = false
 slug = "lets-make-a-music-bot-part-3"
 summary = "In Part -3 of the Telegram Python Bot series, we will be building an interactive bot that will send us songs from our playlists."
-tags = ["Python", "Telegram", "telegram-bot"]
+tags = ["python", "telegram", "telegram-bot"]
 title = "Let's make a Music Bot [Part-3]"
 series = ["telegram-bot"]
 [cover]

@@ -1,11 +1,11 @@
 +++
-categories = ["open-source", "Cloud", "Linux"]
+categories = ["open-source", "cloud", "linux"]
 date = 2022-01-24T09:45:34Z
 description = ""
 draft = false
 slug = "vs-code-on-the-cloud"
 summary = "Let's install a Remote VS Code instance on the cloud which can be accessed from anywhere from a browser."
-tags = ["open-source", "Cloud", "Linux"]
+tags = ["open-source", "cloud", "linux"]
 title = "Let's install VS Code on the Cloud"
 [cover]
   image = "images/sigmund-Im_cQ6hQo10-unsplash.jpg"

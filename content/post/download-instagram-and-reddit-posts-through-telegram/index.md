@@ -1,10 +1,10 @@
 +++
-categories = ["Telegram", "telegram-bot"]
+categories = ["telegram", "telegram-bot"]
 date = 2021-10-21T13:33:02Z
 description = ""
 draft = false
 slug = "download-instagram-and-reddit-posts-through-telegram"
-tags = ["Telegram", "telegram-bot"]
+tags = ["telegram", "telegram-bot"]
 title = "Download Instagram and Reddit posts through Telegram"
 [cover]
     image  = "images/create-a-telegram-bot-for-instagram-engagement-1200x675-1.jpg"
