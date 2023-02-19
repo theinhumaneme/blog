@@ -1,6 +1,6 @@
 baseURL: "https://kalyanmudumby.me/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: theinhumaneme
-paginate: 5
+paginate: 3
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -14,7 +14,7 @@ googleAnalytics: UA-206751308-2
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
@@ -26,6 +26,9 @@ languages:
           series: series
         menu:
             main:
+                - name: Projects
+                  url: projects/
+                  weight: 1
                 - name: Archive
                   url: archives
                   weight: 5
@@ -56,7 +59,7 @@ params:
     author: Kalyan Mudumby
     # author: ["Me", "You"] # multiple authors
     defaultTheme: PaperMod
-    # disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: true
     ShowReadingTime: true
     # disableSpecial1stPost: true
@@ -66,7 +69,7 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
-    TocOpen: true
+    TocOpen: false
     cover:
       linkFullImages: true
 
@@ -76,19 +79,22 @@ params:
     profileMode:
         enabled: false
         title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
+        imageUrl: "profile.JPG"
+        imageTitle: "Kalyan Mudumby"
+        imageWidth: 500
+        imageHeight: 500
         buttons:
+            - name: Blog
+              url: 
             - name: Archives
               url: archives
             - name: Tags
               url: tags
+            
 
     homeInfoParams:
         Title: "Kalyan Mudumby"
-        Content: "I generally share my ideas and thoughts, occasionally some tutorial and installation guides of software and technologies that interest me. AKA theinhumaneme"
+        Content: "Hello I am Kalyan Mudumby, AKA theinhumaneme, I share whatever that piques my interest and things that I've done for future reference.  "
 
     socialIcons:
         - name: telegram
@@ -116,7 +122,7 @@ params:
     #     appendFilePath: true # to append file path to Edit link
 
     # label:
-    #     text: "Home"
+    #     text: "Kalyan Mudumby"
     #     icon: icon.png
     #     iconHeight: 35
 
@@ -136,7 +142,7 @@ params:
     
     assets:
         disableHLJS: false
-        disableFingerprinting: true
+        disableFingerprinting: false 
     #     favicon: "<link / abs url>"
     #     favicon16x16: "<link / abs url>"
     #     favicon32x32: "<link / abs url>"
