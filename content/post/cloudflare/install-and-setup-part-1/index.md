@@ -11,29 +11,30 @@ cover:
   image: "images/cloudflare-tunnels.png"
 ---
 
-In the past few months, I have been interested in making a small home lab, trying out some self-hosted services on my Raspberry Pi 4, and occasionally hosting some of my projects. Some of the most popular self-hosted services are 
-- Nextcloud - Alternative to Cloud Storage Services 
-- Jellyfin - A Home Media Server with some awesome features
+In the past few months, I have been interested in making a small home lab, trying out some self-hosted services on my Raspberry Pi 4, and occasionally hosting some of my projects. Some of the most popular self-hosted applications that I use are:
+
+- Nextcloud - Alternative to Cloud Storage Services
+- Jellyfin - A Home Media Server with awesome features
 - A Visual Studio Code Server
 
 But to do all of this and access my applications remotely, I need
 
-- A public-facing IP address
+- A public IP address
 - A server in the cloud or at home
-
 
 Using a Public IP address is very risky. Without a good network and firewall setup, I could expose my home network to malicious hackers and make my home network compromised and vulnerable. This is not a safe option.
 
-How about renting a VPS from an online Cloud Provider could be an option, but considering that you need to host Nextcloud and Jellyfin Instances, which have high storage and RAM requirements, this option gets expensive really quick, not to mention that the basic servers don't have enough computer power to transcode the video files on the fly. Paying large sums of money for Hobby and Fun Projects doesn't sound very good, does it?
+How about renting a VPS from an online Cloud Provider? that could be an option, but to host Nextcloud and Jellyfin Instances, which have high storage and RAM requirements, this gets expensive really quick, not to mention that the basic servers don't have enough computer power to transcode the video files on the fly. Paying large sums of money for Hobby and Fun Projects doesn't sound very good, does it?
 
-Many of the Homelabs that are generally set up are based on an old retired computer or a Raspberry Pi, which are dedicated to running such instances; we need a public IP to access the services hosted on our local network remotely. Sometimes we would like to expose just one service or share access to an application with our friend or colleague for demo and testing purposes. But... can we do it?
+Many of the Homelabs that are generally set up are based on an old retired computer or a Raspberry Pi, which are dedicated to running such instances; but we need a public IP to access the services hosted on our local network remotely.
 
-Cloudflare Tunnels make it possible to expose our applications in our local network to be connected from a public DNS record linked to our domain.
+Sometimes we would like to expose just one service or share access to an application with our friend or colleague for demo and testing purposes. But... can we do it?
 
+Cloudflare Tunnels makes it possible to expose our applications in our local network to be connected from a public DNS record linked to our domain.
 
 # How do they work?
 
-Cloudflare tunnels work by installing an application or a Cloudflare service called Cloudflared; this service creates a reverse tunnel that communicates with the Cloudflare Servers and connects with the nearest Cloudflare Datacenter. This establishes a secure connection between Cloudflare and our local machine. Now our device can communicate with Cloudflare, let's create a tunnel and expose a test application to the public internet.
+Cloudflare tunnels work by installing an application / Cloudflare service called Cloudflared; this service creates a reverse tunnel that communicates with the Cloudflare Servers and connects with the nearest Cloudflare Datacenter. This establishes a secure connection between Cloudflare and our local machine. Now our device can communicate with Cloudflare, let's create a tunnel and expose a test application to the public internet. This image explains how tunnels work.
 
 ![Cloudflare Tunnels](images/handshake-dc58ec8d.jpg)
 
@@ -188,7 +189,6 @@ cloudflared tunnel route dns nginx-tunnel tunnel.<domain>
 
 Our tunnel is now ready and configured. Let's run the tunnel!!
 
-
 ## Run the tunnel
 
 Cloudflared needs to know the config that has to be used; our config is located at `/home/{USER}/.cloudflared/{tunnel-name}.yaml`
@@ -214,4 +214,3 @@ Visit [Cloudflare Zero Trust](https://developers.cloudflare.com/cloudflare-one/)
 Thank you for reading
 
 ~ Kalyan Mudumby
-
