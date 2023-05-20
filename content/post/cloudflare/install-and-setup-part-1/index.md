@@ -3,7 +3,7 @@ categories: ["cloudflare", "cloud", "linux", homelab"]
 date: 2023-05-20
 description: "A Simple guide to install and create our first cloudflare tunnel"
 draft: "false"
-slug: "install-and-setup-cloudflare-tunnel-part-1"
+slug: "install-and-setup-cloudflare-tunnel"
 tags: ["cloudflare", "cloud", "linux", "homelab"]
 title: "Cloudflare Tunnels - Installing and Setting up our first tunnel"
 series: ["cloudflare"]
