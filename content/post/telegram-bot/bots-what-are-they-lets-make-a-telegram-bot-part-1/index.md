@@ -15,7 +15,7 @@ series = ["telegram-bot"]
 
 # What are Bots?
 
-Robots for short are called Bots are software programs that performs automated,repetitive,pre-defined tasks foe us at a much faster pace, with better accuracy and precision
+Robots for short are called Bots are software programs that performs automated,repetitive,pre-defined tasks for us at a much faster pace, with better accuracy and precision
 
 ![](images/bot-2.jpg)
 
