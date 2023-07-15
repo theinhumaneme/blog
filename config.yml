@@ -10,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-googleAnalytics: 364750197
+googleAnalytics: G-ZG7H58F4SW
 
 minify:
     disableXML: true
