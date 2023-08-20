@@ -12,7 +12,7 @@ title = "Let's Install a Custom ROM"
 +++
 
 
-Today we'll be installing a Custom ROM on any Android Device !! I'm so excited to see and feel my phone differently. Does Custom ROM feel unfamiliar to you? Read more about Custom ROMs [Here](https://blog.kalyanmudumby.me/aosp-and-custom-roms/). We'll be using Realme 3 pro (RMX 1851), Redmi Note 10 Pro (Sweet / Sweetin)
+Today we'll be installing a Custom ROM on any Android Device !! I'm so excited to see and feel my phone differently. Does Custom ROM feel unfamiliar to you? Read more about Custom ROMs [Here](https://blog.kalyanmudumby.com/aosp-and-custom-roms/). We'll be using Realme 3 pro (RMX 1851), Redmi Note 10 Pro (Sweet / Sweetin)
 
 # Disclaimer
 

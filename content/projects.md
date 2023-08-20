@@ -8,9 +8,9 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 
 # Live Applications
 
-- [Documan Web](https://documan.kalyanmudumby.me)
+- [Documan Web](https://documan.kalyanmudumby.com)
 - [Documan Telegram Bot](https://t.me/theinhumaneme_bot)
-- [Mini Project](https://mini.kalyanmudumby.me)
+- [Mini Project](https://mini.kalyanmudumby.com)
 - [College Cultural Fest Website - VIBGYOR'23](https://v23.gctc.in)
 - [College Cultural Fest Website - VIBGYOR'22](https://v22.gctc.in)
 - [College Technical Fest Website - BHASWARA'22 & BHASWARA'23](https://bhaswara.gcet.edu.in)
@@ -18,7 +18,7 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 
 ---
 
-# [Documan Web](https://documan.kalyanmudumby.me/) (2021 - 2022)
+# [Documan Web](https://documan.kalyanmudumby.com/) (2021 - 2022)
 
 - Web Version/Implementation of [Documan Bot](#documan-telegram-bot)
 - Users can create posts and comments using a Rich Text Editor (TINY MCE)
@@ -26,7 +26,7 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 - **[Deprecated]** Search Engine with 10ms results (Meilisearch)
 - Built using Python, Flask, HTML&CSS, PostgreSQL deployed using Docker on a Linux Server.
 - Cloudflare to Manage DNS records.
-- [Click Here](https://documan.kalyanmudumby.me/) to visit.
+- [Click Here](https://documan.kalyanmudumby.com/) to visit.
 
 ---
 
@@ -41,7 +41,7 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 
 ---
 
-# [IOT Based Food Grain Storage Monitoring System for Silos](https://mini.kalyanmudumby.me) (2022-2023)
+# [IOT Based Food Grain Storage Monitoring System for Silos](https://mini.kalyanmudumby.com) (2022-2023)
 
 - A IOT System Prototype to monitor the status of the silo where food grains are stored.
 - Sensors and Hardware used:
@@ -54,7 +54,7 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 - The system monitors the temperature, humidity and the CO2 level of the silo. and using the force sensors to measure the weight of the grain.
 - The hardware sends the data via POST request, the data is stored on Google Sheets and a email is sent based on the threshold conditions.
 - Built Using C, Google Apps Script - Gmail and Google Sheets.
-- [Click Here](https://mini.kalyanmudumby.me) to visit.
+- [Click Here](https://mini.kalyanmudumby.com) to visit.
 
 ---
 
@@ -95,7 +95,7 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 
 ---
 
-# [Tessellation](https://tessellation.kalyanmudumby.me) (2021)
+# [Tessellation](https://tessellation.kalyanmudumby.com) (2021)
 
 - My Submission for GCTCPORTAL 2021 Recruitment.
-- [Click Here](https://tessellation.kalyanmudumby.me) to visit.
+- [Click Here](https://tessellation.kalyanmudumby.com) to visit.

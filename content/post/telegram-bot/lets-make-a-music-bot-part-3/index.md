@@ -76,7 +76,7 @@ pip3 freeze >> requirements.txt
 pip3 install -r requirements.txt
 ```
 
-Please refer to [PART-2](https://blog.kalyanmudumby.me/making-our-first-telegram-bot-part-2/) of this series to familiarise yourself with making a simple bot that echoes our message.
+Please refer to [PART-2](https://blog.kalyanmudumby.com/making-our-first-telegram-bot-part-2/) of this series to familiarise yourself with making a simple bot that echoes our message.
 
 ## Working with Files
 
