@@ -1,5 +1,5 @@
 baseURL: "https://kalyanmudumby.com/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: theinhumaneme
+title: Kalyan Mudumby 
 paginate: 3
 theme: PaperMod
 
@@ -78,9 +78,9 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
-        imageUrl: "profile.JPG"
-        imageTitle: "Kalyan Mudumby"
+        title: Kalyan Mudumby
+        #imageUrl: "profile.JPG"
+        #imageTitle: "Kalyan Mudumby"
         imageWidth: 500
         imageHeight: 500
         buttons:
