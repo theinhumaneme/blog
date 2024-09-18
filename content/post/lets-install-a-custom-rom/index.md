@@ -12,7 +12,7 @@ title = "Let's Install a Custom ROM"
 +++
 
 
-Today we'll be installing a Custom ROM on any Android Device !! I'm so excited to see and feel my phone differently. Does Custom ROM feel unfamiliar to you? Read more about Custom ROMs [Here](https://blog.kalyanmudumby.com/aosp-and-custom-roms/). We'll be using Realme 3 pro (RMX 1851), Redmi Note 10 Pro (Sweet / Sweetin)
+Today we'll be installing a Custom ROM on any Android Device !! I'm so excited to see and feel my phone differently. Does Custom ROM feel unfamiliar to you? Read more about Custom ROMs [Here](https://kalyanmudumby.com/post/aosp-and-custom-roms/). We'll be using Realme 3 pro (RMX 1851), Redmi Note 10 Pro (Sweet / Sweetin)
 
 # Disclaimer
 
@@ -86,7 +86,7 @@ Download the Vanilla Custom ROM and the preferred Gapps Package by the Developer
 Use this command to install the Custom ROM.
 
 ```bash
-# Install Custom ROM 
+# Install Custom ROM
 sudo adb sideload <filename_Custom_ROM>.zip
 # Install GApps Package (Ignore if you don't require Google Services)
 sudo adb sideload <filename_GApps>.zip
@@ -131,4 +131,3 @@ Now reboot to the system. If we followed all the instructions correctly, we shou
 If you're in the post-installation process, congratulations, you've installed a Custom ROM successfully. Install all the necessary apps, use Saftey Net App to check if your device can use Banking Applications. You're good to go. I'm off to customize my phone, install some modded apps, and make my phone truly my own.
 
 Thank you for reading until the end, and see you next time.
-

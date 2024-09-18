@@ -6,8 +6,9 @@ summary: "This page showcases a list of projects (FOSS and closed source) develo
 description: "This page showcases a list of projects (FOSS and closed source) developed by me over the period of time. Order is random and does not depict popularity or timeline."
 ---
 
-# Live Applications
+# Projects
 
+- [Auto Deploy](https://kalyanmudumby.com/post/hasslefree-deployments-with-autodeploy)
 - [Documan Web](https://documan.kalyanmudumby.com)
 - [Documan Telegram Bot](https://t.me/theinhumaneme_bot)
 - [Mini Project](https://mini.kalyanmudumby.com)
@@ -15,22 +16,28 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 - [College Cultural Fest Website - VIBGYOR'22](https://v22.gctc.in)
 - [College Technical Fest Website - BHASWARA'22 & BHASWARA'23](https://bhaswara.gcet.edu.in)
 - [Parking Lot Status System - Peer Learning Project'22](https://www.tinkercad.com/things/bqrG0jbedOz)
+- [Tessellation - GCTC PORTAL Submission](https://tessellation.kalyanmudumby.com)
+---
+
+# [Autodeploy](https://kalyanmudumby.com/post/hasslefree-deployments-with-autodeploy) (2024) (OSS)
+
+A Custom wrapper over git and docker built in rust to streamline local deployments
 
 ---
 
-# [Documan Web](https://documan.kalyanmudumby.com/) (2021 - 2022)
+# [Documan Web](https://documan.kalyanmudumby.com/) (2021 - 2024)
 
 - Web Version/Implementation of [Documan Bot](#documan-telegram-bot)
 - Users can create posts and comments using a Rich Text Editor (TINY MCE)
 - Implemented User Management System with roles
-- **[Deprecated]** Search Engine with 10ms results (Meilisearch)
+- Search Engine with 10ms results (Meilisearch)
 - Built using Python, Flask, HTML&CSS, PostgreSQL deployed using Docker on a Linux Server.
 - Cloudflare to Manage DNS records.
 - [Click Here](https://documan.kalyanmudumby.com/) to visit.
 
 ---
 
-# [Documan Telegram Bot](https://t.me/theinhumaneme_bot) (2020-2022)
+# [Documan Telegram Bot](https://t.me/theinhumaneme_bot) (2020-2024)
 
 - Documan is a Digital Library Service for Students via Telegram Bot API.
 - Notes, Coursefiles, Tutorials,Lab Files in one place
@@ -61,8 +68,8 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 # [VIBGYOR](https://vibgyor.gctc.in) (2022 & 2023)
 
 - Desgined and developed the official website for VIBGYOR - the annual cultural fest at Geethanjali College of Engineering and Technology
-- [Click Here](https://v22.gctc.in) to visit **(VIBGYOR'2022)** 
-- [Click Here](https://v23.gctc.in) to visit **(VIBGYOR'2023)** 
+- [Click Here](https://v22.gctc.in) to visit **(VIBGYOR'2022)**
+- [Click Here](https://v23.gctc.in) to visit **(VIBGYOR'2023)**
 
 ---
 # [Bhaswara'22 & Bhaswara'23 ](https://bhaswara.gcet.edu.in) (2022 & 2023)
@@ -70,11 +77,12 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 - The official Website for the Bhaswara- The Annual Techfest of Geethanjali College of Engineering and Technology.
 - [Click Here](https://bhaswara.gcet.edu.in) to visit.
 
-# GCTCPORTAL Bot (2022)
+# [GCTCPORTAL](https://www.gctcportal.in) Bot (2022 -   2024)
 
 - An Internal Application that automates our daily workflow.
 - Time reduction in workflow from 15 Minutes to 25 Seconds.
 - Built using Python, Telegram Bot API, Google Workspace API.
+- Implemented threading to to parallelize the upload (2024) reduced times from 1 min to 15 seconds for larger files
 
 ---
 

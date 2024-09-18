@@ -16,7 +16,7 @@ title = "Let's install a VPN with PiVPN"
 
 # PiHole
 
-[PiHole](https://pi-hole.net/) is a DNS level AdBlocker that can also function as a DHCP (Dynamic Host Client Protocol) Server that runs on all Linux machines. It can block almost all advertisements on network devices. Created by [Jacob Salmela](https://jacobsalmela.com/) as an open-source alternative to [AdTrap](https://www.kickstarter.com/projects/600284081/adtrap-the-internet-is-yours-again#:~:text=What%20is%20AdTrap%3F,and%20websites%2C%20all%20ad%20free.) in 2014. Installation of PiHole has been Discussed in detail in a previous [Blog Post](https://blog.kalyanmudumby.com/lets-install-pihole/) where we install PiHole on a Raspberry Pi 4 on a home network. In this post, we will be Installing a VPN (Wireguard) to securely connect to a remote Server, mask our traffic, and also block all trackers and advertisements, all while having complete control over our data.
+[PiHole](https://pi-hole.net/) is a DNS level AdBlocker that can also function as a DHCP (Dynamic Host Client Protocol) Server that runs on all Linux machines. It can block almost all advertisements on network devices. Created by [Jacob Salmela](https://jacobsalmela.com/) as an open-source alternative to [AdTrap](https://www.kickstarter.com/projects/600284081/adtrap-the-internet-is-yours-again#:~:text=What%20is%20AdTrap%3F,and%20websites%2C%20all%20ad%20free.) in 2014. Installation of PiHole has been Discussed in detail in a previous [Blog Post](https://kalyanmudumby.com/post/lets-install-pihole/) where we install PiHole on a Raspberry Pi 4 on a home network. In this post, we will be Installing a VPN (Wireguard) to securely connect to a remote Server, mask our traffic, and also block all trackers and advertisements, all while having complete control over our data.
 
 # PiVPN
 
@@ -154,14 +154,14 @@ sudo sysctl -p
 If you're using a firewall like `ufw`, we must open the `wireguard` ports for the traffic to flow to our server. using this command, we can achieve this
 
 ```bash
-sudo ufw allow 51820/tcp #default-port 
+sudo ufw allow 51820/tcp #default-port
 sudo ufw allow 51820/udp #default-port
 sudo ufw reload
 ```
 
 # Other Configuration (Sub Domain for PiHole)
 
-As I'm hosting PiHole on my VM the PiHole UI by default is set to port `80` how to change the port has been discussed [here](https://blog.kalyanmudumby.com/lets-install-pihole/).Now let's set up a subdomain for the Web Interface and also set up SSL using [Let's Encrypt](https://letsencrypt.org/) and Nginx. Let's install the required packages first using the command.
+As I'm hosting PiHole on my VM the PiHole UI by default is set to port `80` how to change the port has been discussed [here](https://kalyanmudumby.com/post/lets-install-pihole/).Now let's set up a subdomain for the Web Interface and also set up SSL using [Let's Encrypt](https://letsencrypt.org/) and Nginx. Let's install the required packages first using the command.
 
 ```bash
 sudo apt install -y nginx certbot python3-certbot-nginx
@@ -174,7 +174,7 @@ server {
     server_name pihole.<your_domain>;
 
     location / {
-        proxy_pass http://localhost:<pi_hole_port>/admin; 
+        proxy_pass http://localhost:<pi_hole_port>/admin;
         # redirect `/` to `/admin`
         include /etc/nginx/proxy_params;
         proxy_redirect off;
@@ -203,4 +203,3 @@ Now you should be able to access PiHole Web Interface at `pihole.<your_domain>` 
 We have successfully set up a VPN that uses the Wireguard tunnel to securely transmit our data to a remote server, mask our IP, use PiHole to block ads trackers; now, we have control over our data to some more extent, in current times, it is crucial to learn and know how our data being used, ignorance is now not an option, so let's all work together towards a digitally secure and safe internet for all.
 
 Thank you for reading until the end, and see you next time.~ Kalyan Mudumby
-

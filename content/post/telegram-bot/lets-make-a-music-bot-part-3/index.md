@@ -76,7 +76,7 @@ pip3 freeze >> requirements.txt
 pip3 install -r requirements.txt
 ```
 
-Please refer to [PART-2](https://blog.kalyanmudumby.com/making-our-first-telegram-bot-part-2/) of this series to familiarise yourself with making a simple bot that echoes our message.
+Please refer to [PART-2](https://kalyanmudumby.com/post/making-our-first-telegram-bot-part-2/) of this series to familiarise yourself with making a simple bot that echoes our message.
 
 ## Working with Files
 
@@ -151,7 +151,7 @@ dp.add_handler(CallbackQueryHandler(options_choice, pattern="^random|shuffle|ran
 dp.add_handler(CallbackQueryHandler(playlist_choice, pattern="^0|1|2$"))
 ```
 
-Flow`/song` -> `options` -> `playlists` 
+Flow`/song` -> `options` -> `playlists`
 
 Options and Playlist Callback HandlerWhen user chooses `random` or `shuffle` we provide them with `playlist` choice, for `random_shuffle` we ask for the number of songs as input and proceed to send songs. All the user choices are stored in the global dictionary.
 
@@ -186,7 +186,7 @@ def send_songs(update, context):
         or data[update.effective_user.id]["option"] == "shuffle"
         or data[update.effective_user.id]["option"] == "random_shuffle"
     ):
-        
+
         if data[update.effective_user.id]["option"] == "random":
             # songs = random.shuffle(playlist[data[update.effective_user.id]["playlist"]])
             songs = playlist[data[update.effective_user.id]["playlist"]]
@@ -219,6 +219,3 @@ We've successfully built a bot that can send us songs stored on Telegram Servers
 __****You can find the code on my [Github Repository](https://github.com/theinhumaneme/code-snippets/blob/main/python-telegram-bot/music_bot.py)****__.
 
 Thank you for reading until the end, and see you next time; until then, happy learning~ Kalyan Mudumby
-
-
-
