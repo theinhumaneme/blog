@@ -199,6 +199,13 @@ hikari daemon
 
 ## Getting Started
 
+Generate your public and private keys using the following command
+
+```shell
+openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:4096
+openssl rsa -pubout -in private_key.pem -out public_key.pem
+```
+
 Ensure the following files are in the same directory as the Hikari binary:
 
 - node.toml: Contains node-specific configurations. example below
@@ -236,7 +243,7 @@ With this setup, Hikari takes care of the heavy lifting, ensuring seamless deplo
 
 ## Conclusion
 
-Hikari is purpose-built for those seeking a lightweight, cost-effective, and secure solution for managing cloud deployments. Whether you're handling a handful of VMs or a specific use case for each node, Hikari eliminates the overhead of traditional orchestration tools, empowering you with a straightforward and intelligent deployment process.
+Hikari is purpose-built for those seeking a lightweight, cost-effective, and secure solution for managing cloud deployments. Whether you're handling a handful of VMs or a specific use case for each node, Hikari eliminates the overhead, empowering you with a straightforward and seamless deployment process.
 
 [**sourcecode**](https://github.com/theinhumaneme/hikari) for hikari, if you have any new ideas, you can raise a Pull Request and I would be happy to merge it :D
 
