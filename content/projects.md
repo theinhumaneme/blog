@@ -8,7 +8,9 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 
 # Projects
 
-- [Auto Deploy](https://kalyanmudumby.com/post/hasslefree-deployments-with-autodeploy)
+
+- [Hikari](../content/post/hikari-explaination-post-rust/index.md)
+- [Auto Deploy](../content/post/autodeoploy-explaination-post-rust/index.md)
 - [Documan Web](https://documan.kalyanmudumby.com)
 - [Documan Telegram Bot](https://t.me/theinhumaneme_bot)
 - [Mini Project](https://mini.kalyanmudumby.com)
@@ -19,9 +21,16 @@ description: "This page showcases a list of projects (FOSS and closed source) de
 - [Tessellation - GCTC PORTAL Submission](https://tessellation.kalyanmudumby.com)
 ---
 
-# [Autodeploy](https://kalyanmudumby.com/post/hasslefree-deployments-with-autodeploy) (2024) (OSS)
+# [Hikari](../content/post/hikari-explaination-post-rust/index.md) (2024) (OSS)
 
-A Custom wrapper over git and docker built in rust to streamline local deployments
+Hikari is a lightweight deployment manager that automates configuration updates, Docker Compose management, and cleanup for virtual machines by monitoring remote files. It simplifies deployment workflows, ensuring efficiency and reliability with minimal manual intervention.
+
+---
+
+
+# [Autodeploy](../content/post/autodeoploy-explaination-post-rust/index.md) (2024) (OSS)
+
+Autodeploy is a streamlined deployment automation tool that simplifies the process of deploying applications on servers with minimal configuration. It ensures hassle-free, consistent, and efficient deployments, saving time and reducing errors.
 
 ---
 
