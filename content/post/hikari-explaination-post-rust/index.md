@@ -236,7 +236,7 @@ With this setup, Hikari takes care of the heavy lifting, ensuring seamless deplo
 
 ## Conclusion
 
-Hikari is purpose-built for those seeking a lightweight, cost-effective, and secure solution for managing cloud deployments. Whether you're handling a handful of VMs or a specific use case for each node, Hikari eliminates the overhead of traditional orchestration tools, empowering you with a straightforward and intelligent deployment process.
+Hikari is purpose-built for those seeking a lightweight, cost-effective, and secure solution for managing cloud deployments. Whether you're handling a handful of VMs or a specific use case for each node, Hikari eliminates the overhead, empowering you with a straightforward and seamless deployment process.
 
 [**sourcecode**](https://github.com/theinhumaneme/hikari) for hikari, if you have any new ideas, you can raise a Pull Request and I would be happy to merge it :D
 
